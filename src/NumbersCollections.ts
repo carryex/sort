@@ -1,6 +1,8 @@
-import {Sortable} from './Sorter';
-class NumbersCollections implements Sortable{
-  constructor(public data: number[]) {}
+import { Sorter} from './Sorter';
+class NumbersCollections extends Sorter {
+  constructor(public data: number[]) {
+    super();
+  }
 
   get length():number {
     return this.data.length;
