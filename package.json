@@ -1,0 +1,26 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "sort",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently yarn:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carryex/sort.git"
+  },
+  "author": "Daniil Pokinsokha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carryex/sort/issues"
+  },
+  "homepage": "https://github.com/carryex/sort#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.14"
+  }
+}
